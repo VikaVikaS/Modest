@@ -1,0 +1,100 @@
+@font-face {
+	font-family: 'open_sansbold';
+	src: url('../fonts/OpenSans/Bold/opensans-bold-webfont.eot'); 
+	src: url('../fonts/OpenSans/Bold/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	 	url('../fonts/OpenSans/Bold/opensans-bold-webfont.woff2') format('woff2'),
+	 	url('../fonts/OpenSans/Bold/opensans-bold-webfont.woff') format('woff'),
+	 	url('../fonts/OpenSans/Bold/opensans-bold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sansregular';
+	src: url('../fonts/OpenSans/regular/opensans-regular-webfont.eot'); 
+	src: url('../fonts/OpenSans/regular/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans/regular/opensans-regular-webfont.woff2') format('woff2'),
+		url('../fonts/OpenSans/regular/opensans-regular-webfont.woff') format('woff'),
+		url('../fonts/OpenSans/regular/opensans-regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sanssemibold'; 
+	src: url('../fonts/OpenSans/semibold/opensans-semibold-webfont.eot'); 
+	src: url('../fonts/OpenSans/semibold/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans/semibold/opensans-semibold-webfont.woff2') format('woff2'),
+		url('../fonts/OpenSans/semibold/opensans-semibold-webfont.woff') format('woff'),
+		url('../fonts/OpenSans/semibold/opensans-semibold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icons/icomoon.eot?k6af1i');
+    src:    url('../fonts/icons/icomoon.eot?k6af1i#iefix') format('embedded-opentype'),
+        url('../fonts/icons/icomoon.ttf?k6af1i') format('truetype'),
+        url('../fonts/icons/icomoon.woff?k6af1i') format('woff'),
+        url('../fonts/icons/icomoon.svg?k6af1i#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'quattrocento_sansbold';
+    src: url('../fonts/QuattrocentoSans/quattrocento-sans-bold_allfont.ru-webfont.eot');
+    src: url('../fonts/QuattrocentoSans/quattrocento-sans-bold_allfont.ru-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/QuattrocentoSans/quattrocento-sans-bold_allfont.ru-webfont.woff2') format('woff2'),
+         url('../fonts/QuattrocentoSans/quattrocento-sans-bold_allfont.ru-webfont.woff') format('woff'),
+         url('../fonts/QuattrocentoSans/quattrocento-sans-bold_allfont.ru-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pencil2:before {
+    content: "\e900";
+}
+.icon-clock:before {
+    content: "\e901";
+}
+.icon-mobile:before {
+    content: "\e902";
+}
+.icon-cogs:before {
+    content: "\e903";
+}
+.icon-google:before {
+    content: "\e904";
+}
+.icon-facebook:before {
+    content: "\e905";
+}
+.icon-twitter:before {
+    content: "\e906";
+}
+.icon-dribbble:before {
+    content: "\e907";
+}
+.icon-behance:before {
+    content: "\e908";
+}
+.icon-skype:before {
+    content: "\e909";
+}
+.icon-linkedin2:before {
+    content: "\e90a";
+}
+

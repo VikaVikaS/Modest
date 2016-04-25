@@ -1,0 +1,73 @@
+.team_info{
+	padding:80px 0 98px;
+	@media only screen and (max-width: 992px){
+		padding:20px 0 40px;
+		text-align:center;
+	}
+	&-member{
+		position: relative;
+		@media only screen and (max-width: 992px){
+			display: inline-block;
+			margin:0 0 20px;
+		}
+		&:hover{
+			cursor: pointer;
+		}
+		&:hover .overlay{
+			opacity: 1;
+		}
+		&:hover .caption{
+			background: $brand-color-secondary;
+			color: #fff;
+			& .name{
+				color:#fff;
+			}
+		}
+		& .overlay{ 
+			position: absolute;
+			left:0;
+			right:0;
+			top:0;
+			height: 80%;
+			background: rgba(255,255,255,0.4);
+			display: flex;
+			justify-content: center;
+			align-items:center;
+			opacity: 0;
+			& .socialnet-links{
+				list-style: none;
+				& li{
+					display: inline-block;
+					margin:0 -2px 0 0;
+					& a{
+						display: -webkit-box;
+						display: -moz-box;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						width: 50px;
+						height: 50px;
+						background: $brand-color-secondary;
+						&:hover{
+							background: lighten($brand-color-secondary, 9%);
+						}
+					}
+				}
+			}
+		}
+		& .caption{
+			font-size: 14px;
+			line-height: 18px;
+			padding:18px 20px 16px;
+			background: #e1e6ea;
+			& .name{
+				display: block;
+				color:$h2-color;
+				font-weight: bold;
+				font-family: 'quattrocento_sansbold';
+				text-transform: uppercase;
+				margin:0 0 4px;
+			}
+		}
+	}
+}

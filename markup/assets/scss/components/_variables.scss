@@ -1,0 +1,37 @@
+//brand-colors
+$brand-color:                         #23b7a4;
+$brand-color-secondary:               #3a454d;
+
+//typographics:
+
+$text-base-color:                      #8d8f92;
+$text-base-font-size:                  16px;
+$text-base-line-height:                26px;
+$text-base-font-family:                'open_sansregular';
+
+$h2-color:                              #292f36;
+$h2-font-size:                          36px;
+$h2-line-height:                        42px;
+$h2-font-family:                        'quattrocento_sansbold';
+
+$h2-font-size-media:                     25px;
+$h2-line-height-media:                   30px;
+
+$h3-color:                               #292f36;
+$h3-font-size:                           18px;
+$h3-line-height:                         23px;
+$h3-font-family:                        'quattrocento_sansbold';
+
+$h3-font-size-media:                      14px;
+$h3-line-height-media:                    17px;
+
+
+//buttons
+$btn-font-size:                           14px;
+$btn-line-height:                         20px;
+$btn-font-family:                         'quattrocento_sansbold';
+$btn-color:                                #fff;
+$btn-bg:                                   transparent;
+$btn-border-color:                         #fff;
+$btn-hover-color:                          #fff;
+$btn-hover-bg:                             $brand-color;

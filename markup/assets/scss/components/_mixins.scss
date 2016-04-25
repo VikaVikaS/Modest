@@ -1,0 +1,28 @@
+@mixin buttons{
+	display: inline-block;
+	padding:15px 20px;
+	text-transform:uppercase;
+	color:$btn-color;
+	font-size:$btn-font-size;
+	line-height:$btn-line-height;
+	font-family:$btn-font-family;
+	background: $btn-bg;
+	border:2px solid $btn-border-color;
+	border-radius:4px;
+	cursor: pointer;
+	&:hover{
+		background: $btn-hover-bg;
+		border-color:$btn-hover-bg;
+	}
+	@media only screen and (max-width: 768px){
+		padding:10px 15px;
+	}
+}
+@mixin buttons-inverse{
+	@include buttons;
+	background: $btn-hover-bg;
+	border:none;
+	&:hover{
+		background: lighten($btn-hover-bg,10%);
+	}
+}

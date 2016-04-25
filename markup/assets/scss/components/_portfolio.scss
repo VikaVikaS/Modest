@@ -1,0 +1,66 @@
+.dark-section{
+	background: $brand-color-secondary;
+	padding:86px 0 60px;
+	color:#dcdfe1;
+	@media only screen and (max-width: 992px){
+		padding:30px 0 20px;
+	}
+	& h2{
+		color: #fff;
+		border-color:#4e5a62;
+		text-align:left;
+	}
+	& h3{
+		color:#fff;
+	}
+}
+.portfolio{
+	text-align:center;
+	&_works{
+		margin:0 0 60px;
+		@media only screen and (max-width: 992px){
+			margin: 0 0 20px;
+		}
+		&_item{
+			position: relative;
+			margin:0 0 30px;
+			&:hover .portfolio_works_item-overlay{
+				opacity: 1;
+			}
+			@media only screen and (max-width: 992px){
+				display: inline-block;
+			}
+			&-overlay{
+				background: rgba(41,47,54, 0.5);
+				position: absolute;
+				top:0;
+				left:15px;
+				right:15px;
+				height: 100%;
+				opacity: 0;
+				color:#fff;
+				font-size:50px;
+				& span{
+					position: absolute;
+					top:35%;
+					left:48%;
+				}
+				& .work_name{
+					background: darken($brand-color-secondary, 10%);
+					padding:24px 0 23px 20px;
+					position: absolute;
+					left:0;
+					right:0;
+					bottom:0;
+					text-align:left;
+					& h3{
+						color:#fff;
+					}
+				}
+			}
+		}
+	}
+}
+.btn{
+	@include buttons;
+}
