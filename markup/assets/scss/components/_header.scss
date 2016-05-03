@@ -19,9 +19,12 @@
 }
 .logo-block{
 	margin:13px 0 0;
+	width: 100px;
+	@media only screen and (max-width: 1023px){
+		margin:0;
+	}
 	@media only screen and (max-width: 768px){
 		margin:0;
-		width: 100px;
 	}
 }
 #nav{
@@ -34,7 +37,7 @@
 			display: inline-block;
 			margin:0 15px;
 			text-transform: uppercase;
-			@media only screen and (max-width: 768px){
+			@media only screen and (max-width: 1023px){
 				display: block;
 				text-align: center;
 			}

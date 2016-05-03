@@ -3,10 +3,10 @@
 	float:right;
 	width:68px;
 	height:33px;
-	margin:-30px 0 0;
 	position: relative;
 	text-indent:-9999px;
 	overflow:hidden;
+	text-align:left;
 }
 .opener:before,
 .opener:after,
@@ -56,8 +56,7 @@
 	}
 }
 @media only screen and (max-width: 1023px){
-	.opener{display:block;
-		margin:-22px;}
+	.opener{display:block; margin:-22px 0 0;}
 	#nav .drop{
 		float:none;
 		opacity:0;
